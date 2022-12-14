@@ -50,7 +50,8 @@ namespace Infrastructure.Migrations
 
                     b.Property<string>("Typeservice")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(30)
+                        .HasColumnType("nvarchar(30)");
 
                     b.HasKey("ActiviteId");
 
@@ -70,15 +71,18 @@ namespace Infrastructure.Migrations
 
                     b.Property<string>("Login")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(30)
+                        .HasColumnType("nvarchar(30)");
 
                     b.Property<string>("Password")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(30)
+                        .HasColumnType("nvarchar(30)");
 
                     b.Property<string>("Photo")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(30)
+                        .HasColumnType("nvarchar(30)");
 
                     b.HasKey("Identifiant");
 
@@ -97,11 +101,13 @@ namespace Infrastructure.Migrations
 
                     b.Property<string>("Nom")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(30)
+                        .HasColumnType("nvarchar(30)");
 
                     b.Property<string>("Prenom")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(30)
+                        .HasColumnType("nvarchar(30)");
 
                     b.HasKey("ConseillerId");
 
@@ -124,7 +130,8 @@ namespace Infrastructure.Migrations
 
                     b.Property<string>("IntituleePack")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(30)
+                        .HasColumnType("nvarchar(30)");
 
                     b.Property<int>("NbPlaces")
                         .HasColumnType("int");
@@ -179,11 +186,13 @@ namespace Infrastructure.Migrations
 
                             b1.Property<string>("Pays")
                                 .IsRequired()
-                                .HasColumnType("nvarchar(max)");
+                                .HasMaxLength(30)
+                                .HasColumnType("nvarchar(30)");
 
                             b1.Property<string>("Ville")
                                 .IsRequired()
-                                .HasColumnType("nvarchar(max)");
+                                .HasMaxLength(30)
+                                .HasColumnType("nvarchar(30)");
 
                             b1.HasKey("ActiviteId");
 

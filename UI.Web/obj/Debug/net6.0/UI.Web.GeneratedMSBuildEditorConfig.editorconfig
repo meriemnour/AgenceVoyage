@@ -15,6 +15,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\merie\OneDrive\Bureau\bikemla\Examen2023\UI.Web
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/merie/OneDrive/Bureau/bikemla/Examen2023/UI.Web/Views/Client/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/merie/OneDrive/Bureau/bikemla/Examen2023/UI.Web/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

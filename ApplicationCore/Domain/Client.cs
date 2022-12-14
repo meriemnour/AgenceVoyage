@@ -25,7 +25,7 @@ namespace ApplicationCore.Domain
 
         public virtual Conseiller Conseiller { get; set; }
        // [ForeignKey("Conseriller")]
-        public int ConserillerFK { get; set; }
+        public int ConseillerFK { get; set; }
 
     }
 }

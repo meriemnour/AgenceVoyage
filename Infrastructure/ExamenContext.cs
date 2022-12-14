@@ -52,5 +52,12 @@ namespace Infrastructure
             base.OnModelCreating(modelBuilder);
         }
         //ConfigureConventions
+        protected override void ConfigureConventions(ModelConfigurationBuilder configurationBuilder)
+        {
+            configurationBuilder.Properties<String>().HaveMaxLength(30);
+            base.ConfigureConventions(configurationBuilder);
+        }
+
+
     }
 }
